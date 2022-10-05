@@ -10,24 +10,47 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/2a2e74e139.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
 
     <!-- Barra de Navegación -->
     <header>
       <nav>
-        <a href="" id="logo"
+        <a href="../index.html" id="logo"
           ><h1 class="animate__animated animate__backInLeft">
             Astronomia Argentina
           </h1></a
         >
+        <div class = "ham-btn">
+          <span>
+              <i class = "fas fa-bars"></i>
+          </span>
+      </div>
+
+      <div class = "times-btn">
+          <span>
+              <i class = "fas fa-times"></i>
+          </span>
+      </div>
+  </div>
         <ul class="nav-links">
-          <li class="nav-item"><a href="html/news.html">NOTICIAS</a></li>
-          <li class="nav-item"><a href="html/astro.html">ASTRONOMIA</a></li>
-          <li class="nav-item"><a href="html/missions.html">MISIONES</a></li>
-          <li class="nav-item"><a href="html/contact.html">CONTACTO</a></li>
+          <li class="nav-item"><a href="./news.html">NOTICIAS</a></li>
+          <li class="nav-item"><a href="./astro.html">ASTRONOMIA</a></li>
+          <li class="nav-item"><a href="./missions.html">MISIONES</a></li>
+          <li class="nav-item"><a href="./contact.html">CONTACTO</a></li>
         </ul>
       </nav>
+      <ul class="nav-links-750px">
+        <li class="nav-item"><a href="./news.html">NOTICIAS</a></li>
+        <li class="nav-item"><a href="./astro.html">ASTRONOMIA</a></li>
+        <li class="nav-item"><a href="./missions.html">MISIONES</a></li>
+        <li class="nav-item"><a href="./contact.html">CONTACTO</a></li>
+      </ul>
     </header>
 
     <!-- Contenido Principal -->
@@ -39,5 +62,8 @@
         <img src="" alt="Logo" />ENCONTRANOS EN <i></i>
       </div>
     </footer>
+
+    <!-- Script -->
+    <script src="../js/main.js" async defer></script>
   </body>
 </html>
