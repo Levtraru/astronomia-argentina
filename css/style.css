@@ -18,21 +18,26 @@ a:hover:not(#logo) {
   background-color: white;
   color: royalblue;
 }
+li { 
+  list-style: none;
+}
 nav {
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 2fr 4fr 1fr 1fr 1fr 1fr;
+  display: flex;
   width: 100vw;
-  padding: 5px;
   background-color: royalblue;
   color: white;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
-.nav-item {
+.nav-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+.nav-item a{
+  display: inline-block;
+  padding: 10px 15px;
 }
 h1{
   margin-left: 1em;
@@ -68,3 +73,4 @@ footer {
   align-items: center;
   padding: 1em 0;
 }
+
