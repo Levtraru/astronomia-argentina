@@ -6,13 +6,14 @@ const navBar = document.querySelector(".nav-links-750px");
 window.addEventListener("resize", function () {
   var viewport_width = window.innerWidth;
 
-  /* Esconde los botones del hamburger menu si el ancho de pantalla es mayor
+  /* Esconde el hamburger menu si el ancho de pantalla es mayor
    a 750  */
   if (viewport_width > 750) {
     btnHam.style.display = "none";
     btnTimes.style.display = "none";
+    navBar.classList.remove("show-nav");
   }
-  // Si es menor a 750, muestra btnHam a menos que btnTimes ya sea visible
+  // Si es menor a 750, muestra btnHam a menos que btnTimes y la navbar ya sean visible
   else if (btnTimes.style.display != "block")
   {
     btnHam.style.display = "block";
