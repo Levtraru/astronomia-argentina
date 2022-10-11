@@ -1,0 +1,19 @@
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background-color: white;
+    height: 66vh;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.FlexContainer div {
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    background-color: lightblue;
+}
