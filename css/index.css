@@ -9,6 +9,7 @@ html {
 }
 body {
   font-family: Roboto, sans-serif;
+  overflow: hidden;
 }
 
 /* index.html */
@@ -20,6 +21,7 @@ body {
   align-content: flex-start;
   place-items: center;
 }
+
 #logo-container {
   display: grid;
   align-content: center;
