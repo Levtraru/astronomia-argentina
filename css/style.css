@@ -87,23 +87,45 @@ nav {
 }
 
 /* index.html */
-article {
-  display: flex;
-}
-article p {
-  width: 50%;
-  height: 200px;
+#index {
+  background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png");
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: cornflowerblue;
+}
+#bienvenida {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#bienvenida-texto p {
+  font-size: 1.5rem;
+  width: auto;
+  max-height: 500px;
+  /* background-color: cornflowerblue; */
   margin: 1em;
-}
-.video {
-  width: 100%;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+  user-select: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 0 0 4px black;
+}
+
+/* Responsive */
+@media screen and (max-width: 750px) {
+  #bienvenida {
+    display: flex;
+    flex-direction: column;
+  }
+  #bienvenida-texto p{
+    font-size: 1rem;
+    width: 100vw;
+  }
 }
 
 /* Footer */
