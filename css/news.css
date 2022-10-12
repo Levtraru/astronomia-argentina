@@ -65,7 +65,7 @@
 .hidden {
   opacity: 0;
   filter: blur(5px);
-  transition: all .5s;
+  transition: all 1s;
 }
 .shown {
   opacity: 1;
