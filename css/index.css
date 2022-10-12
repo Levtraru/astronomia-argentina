@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* index.html */
+#index {
+  background-image: url(../imgs/wallpaper.png);
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  align-content: flex-start;
+  place-items: center;
+}
+#logo-container {
+  display: grid;
+  align-content: center;
+  place-items: center;
+  margin-top: 1em;
+}
+#title {
+  color: white;
+  font-size: 3rem;
+  user-select: none;
+}
+#logo {
+  width: 5rem;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+#bienvenida {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#bienvenida-texto p {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  user-select: none;
+}
+#index-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.index-btn {
+  border: none;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.8em;
+  font-size: 2rem;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.index-btn:hover {
+  color: royalblue;
+  background-color: white;
+  box-shadow: 0 0 .5em .2em #fff;
+}
+
+/* Responsive */
+@media screen and (max-width: 750px) {
+  #bienvenida-texto p {
+    font-size: 1rem;
+  }
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: royalblue;
+  color: white;
+}
+.footer-element {
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.45em 0;
+}
