@@ -88,11 +88,12 @@ nav {
 
 /* index.html */
 #index {
-  background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png");
+  background-image: url(../imgs/wallpaper.png);
+  background-size: cover;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  align-content: center;
+  place-items: center;
 }
 #bienvenida {
   display: flex;
