@@ -10,8 +10,9 @@
   margin-bottom: 1em;
   border-bottom: 1px solid #222;
 }
-.latest-news, .more-news {
-    cursor: pointer;
+.latest-news,
+.more-news {
+  cursor: pointer;
 }
 .news-container {
   padding: 1em;
@@ -58,6 +59,19 @@
 .more-news h3 {
   text-align: center;
 }
+
+/* Animación scroll */
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all .5s;
+}
+.shown {
+  opacity: 1;
+  filter: blur(0);
+}
+
 @media screen and (max-width: 750px) {
   .upper-chunk {
     grid-template-columns: 1fr;
@@ -74,6 +88,6 @@
   }
   .bottom-chunk .more-news {
     min-height: 220px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
