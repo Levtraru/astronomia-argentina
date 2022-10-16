@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +7,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: Roboto, sans-serif;
   overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* index.html */
@@ -32,6 +31,7 @@ body {
   color: white;
   font-size: 3rem;
   user-select: none;
+  font-family: 'Indie Flower', cursive;
 }
 #logo {
   width: 5rem;
@@ -71,6 +71,7 @@ body {
   border-radius: 0.5em;
   cursor: pointer;
   transition: all 0.5s ease;
+  font-family: 'Quicksand', sans-serif;
 }
 .index-btn:hover {
   color: royalblue;
