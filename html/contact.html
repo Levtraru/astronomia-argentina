@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
+    <!-- Script -->
+    <script src="../js/main.js" async defer></script>
+    <script src="../js/form-validation.js"></script>
     <!-- Font Awesome Icons -->
     <script
       src="https://kit.fontawesome.com/2a2e74e139.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-
     <!-- Barra de Navegación -->
     <header>
       <nav>
@@ -29,18 +30,17 @@
             Astronomía Argentina
           </h1></a
         >
-        <div class = "ham-btn">
+        <div class="ham-btn">
           <span>
-              <i class = "fas fa-bars"></i>
+            <i class="fas fa-bars"></i>
           </span>
-      </div>
+        </div>
 
-      <div class = "times-btn">
+        <div class="times-btn">
           <span>
-              <i class = "fas fa-times"></i>
+            <i class="fas fa-times"></i>
           </span>
-      </div>
-  </div>
+        </div>
         <ul class="nav-links">
           <li class="nav-item"><a href="./news.html">NOTICIAS</a></li>
           <li class="nav-item"><a href="./astro.html">ASTRONOMÍA</a></li>
@@ -57,70 +57,73 @@
     </header>
 
     <!-- Contenido Principal -->
-    <main>
-      <br><h2 align="center">¿Dudas? ¿Comentarios? ¡Escribinos!</h1></br>
-      <form action="" method="" target="">
-        
-        <div class="form" align="center" class="form">
-
-          <div> 
-          <label for="name">Nombre:</label>
-          <input size="10" maxlength="10" type="text" name="name" id="name" required>
-
-          <label for="surname">Apellido:</label>
-          <input size="10" maxlength="10" type="text" name="surname" id="surname" required>
+    <main id="contact-container">
+      <div id="contact">
+        <h2>¿Dudas? ¿Comentarios?<span class="h2-bold"> ¡Escribinos!</span></h2>
+        <div id="contact-error"></div>
+        <form id="contact-form" onsubmit="return validacion()">
+          <div class="input-field">
+            <label for="name">Nombre:</label>
+            <input
+              type="text"
+              placeholder="Ingresa tu nombre..."
+              name="name"
+              id="name"
+            />
           </div>
-
-          <div>
-          <br><label for="born" type="date" name="born" id="born">Fecha de nacimiento:</label>
-          <input size="1" maxlength="3" type="date" name="born" id="born" required>
-
-         Género:<select name="genre" required>
-                    <option></option>
-                    <option>Mujer</option>
-                    <option>Hombre</option>
-                    <option>Otro</option></select>
+          <div class="input-field">
+            <label for="surname">Apellido:</label>
+            <input
+              type="text"
+              placeholder="Ingresa tu apellido..."
+              name="surname"
+              id="surname"
+            />
           </div>
-
-          <div>
-          <br><label for="from" type="text" name="from" id="from">Provincia:</label>
-          <input size="20" type="text" name="from" id="from">
-
-          <label for="from" type="text" name="from" id="from">País:</label>
-          <input size="20" type="text" name="from" id="from" required>
+          <div class="input-field">
+            <label for="location">Ubicación:</label>
+            <input
+              type="text"
+              placeholder="Por ejemplo: Buenos Aires, Argentina"
+              name="location"
+              id="location"
+            />
           </div>
-
-          <div> 
-            <br><label for="email">E-mail:</label>
-            <input size="30" type="email" maxlength="40" name="email" id="email" required>
+          <div class="input-field">
+            <label for="email">E-mail:</label>
+            <input
+              type="text"
+              placeholder="Ingresa tu email..."
+              name="email"
+              id="email"
+            />
           </div>
-         
-          <div>
-            <br><label for="from" type="text" name="from" id="from">Mensaje:</label>
-            <br><textarea name="message" rows="15" cols="70" required>Dejanos tu mensaje aquí...</textarea>
+          <div class="input-field">
+            <label for="message">Mensaje:</label>
+            <textarea
+              placeholder="Dejanos tu mensaje aquí..."
+              name="message"
+              id="message"
+            ></textarea>
           </div>
-          
-          <div> 
-            <br><label for="submit" type="button" name="submit" id="submit"></label>
-            <input type="submit" value="Enviar">
-  
-            <label for="delete" type="button" name="delete" id="delete"></label>
-            <input type="reset" value="Borrar todo">
+          <div id="contact-btn">
+            <input type="reset" value="Borrar todo" />
+            <input type="submit" value="Enviar" />
           </div>
-         <br>
-        </div>
-
-      </form>
+        </form>
+      </div>
     </main>
-    
+
     <!-- Footer -->
     <footer>
-      <div class="footer-element">
-        <img src="../imgs/original.png" alt="Logo" height="120 px" />ENCONTRANOS EN<i></i>
+      <div class="footer-element">ENCONTRANOS EN</div>
+      <div class="footer-element footer-brands">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-discord"></i>
       </div>
     </footer>
-
-    <!-- Script -->
-    <script src="../js/main.js" async defer></script>
   </body>
 </html>
