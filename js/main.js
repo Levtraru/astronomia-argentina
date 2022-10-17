@@ -40,6 +40,7 @@ btnTimes.addEventListener("click", function () {
 });
 /* ======== Navbar End ======== */
 
+/* ======== Noticias ======== */
 /* Hace que las noticias aparezcan con un fade al ser observadas por el usuario */
 // Aplica o remueve el estilo 'shown' cuando un elemento es observado
 const observer = new IntersectionObserver((entries) => {
@@ -53,3 +54,4 @@ const observer = new IntersectionObserver((entries) => {
 });
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+/* ======== Noticias End ======== */
