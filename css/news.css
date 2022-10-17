@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;700&display=swap");
+
 #news {
   padding: 0 1em;
   max-width: 1500px;
+  margin: 0 auto;
 }
 .upper-chunk {
   display: grid;
@@ -26,6 +29,7 @@
 }
 .latest-news h2 {
   margin-bottom: 0.5em;
+  text-align: center;
 }
 .latest-news .news-img {
   width: 100%;
