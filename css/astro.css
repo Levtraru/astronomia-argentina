@@ -27,6 +27,7 @@
     align-content: center;
     text-align: justify;
     font-size: large;
+    padding: 1em;
 }
 
 #main {
@@ -48,3 +49,14 @@
     text-align: center;
 }
 
+.solarsystem-img{
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+#system{
+    height: 60%;
+    width: 60%;
+}
