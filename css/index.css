@@ -67,7 +67,7 @@ body {
 }
 .index-btn {
   border: none;
-  background-color: royalblue;
+  background-color: #03045E;
   color: white;
   font-weight: bold;
   padding: 0.8em;
@@ -99,7 +99,7 @@ footer {
   justify-content: center;
   gap: 5em;
   align-items: center;
-  background-color: royalblue;
+  background-color: #03045E;
   color: white;
 }
 div.footer-element {
