@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;700&display=swap");
+:root {
+  --main-blue: #03045E;
+}
 
 * {
   margin: 0;
@@ -67,7 +70,7 @@ body {
 }
 .index-btn {
   border: none;
-  background-color: #03045E;
+  background-color: var(--main-blue);
   color: white;
   font-weight: bold;
   padding: 0.8em;
@@ -99,7 +102,7 @@ footer {
   justify-content: center;
   gap: 5em;
   align-items: center;
-  background-color: #03045E;
+  background-color: var(--main-blue);
   color: white;
 }
 div.footer-element {

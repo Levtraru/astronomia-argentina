@@ -1,3 +1,7 @@
+:root {
+  --main-blue: #03045E;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +42,7 @@ nav {
   box-sizing: border-box;
   display: flex;
   width: 100%;
-  background-color: #03045E;
+  background-color: var(--main-blue);
   color: white;
   align-items: center;
   justify-content: space-between;
@@ -104,7 +108,7 @@ footer {
   justify-content: center;
   gap: 5em;
   align-items: center;
-  background-color: #03045E;
+  background-color: var(--main-blue);
   color: white;
 }
 div.footer-element {
