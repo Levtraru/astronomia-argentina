@@ -18,7 +18,7 @@ a{
 }
 a:hover:not(#logo) {
   background-color: white;
-  color: royalblue;
+  color: #00B4D8;
 }
 img {
   width: 100%;
@@ -37,7 +37,7 @@ nav {
   box-sizing: border-box;
   display: flex;
   width: 100%;
-  background-color: royalblue;
+  background-color: #03045E;
   color: white;
   align-items: center;
   justify-content: space-between;
@@ -103,7 +103,7 @@ footer {
   justify-content: center;
   gap: 5em;
   align-items: center;
-  background-color: royalblue;
+  background-color: #03045E;
   color: white;
 }
 div.footer-element {
