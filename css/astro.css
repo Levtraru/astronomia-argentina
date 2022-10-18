@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .FlexContainer {
     display: flex;
@@ -7,15 +12,39 @@
     align-items: center;
     align-content: center;
     width: 100%;
-    background-color: white;
-    height: 66vh;
+    background-color: #CAF0F8;
+    height:auto;
     overflow: auto;
     flex-direction: column;
 }
 
 .FlexContainer div {
-    width: 80%;
-    height: 10%;
     margin-top: 20px;
-    background-color: lightblue;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #90E0EF;
+    display: inline-block;
+    align-content: center;
+    text-align: justify;
+    font-size: large;
 }
+
+#main {
+    background-color: #CAF0F8;
+}
+
+.astrotitle{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#astrosubtitle{
+    font-weight: bold;
+    font-size:larger;
+}
+
+#list{
+    text-align: center;
+}
+
