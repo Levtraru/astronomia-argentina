@@ -58,7 +58,7 @@
 }
 
 #list li {
-    list-style: circle;
+    list-style:disc;
     margin-left: 1em;
     margin-bottom: 1em;
 }
@@ -67,10 +67,13 @@
     height: auto;
     width: auto;
     margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: block;
+    border-radius: 1em;
 }
 
 #system{
-    height: 60%;
-    width: 60%;
+    height: 50%;
+    width: 50%;
 }
