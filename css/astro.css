@@ -52,6 +52,7 @@
 }
 
 #astrosubtitle{
+    text-align: center;
     font-weight: bold;
     font-size:larger;
     margin-bottom: 1em;
@@ -64,8 +65,8 @@
 }
 
 .solarsystem-img{
-    height: auto;
-    width: auto;
+    height: 40%;
+    width: 40%;
     margin: auto;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -74,12 +75,12 @@
 }
 
 #system{
-    height: 40%;
-    width: 40%;
+    height: auto;
+    width: auto;
 }
 
 
-.galaxies p{
+.objects p{
     text-align: center;
 }
 
