@@ -50,6 +50,7 @@
     background-color: var(--second-blue);
     border-radius: .5em;
     user-select: none;
+    margin-left: 0rem;
 }
 
 #astrosubtitle{
@@ -62,6 +63,9 @@
 #list li {
     list-style:disc;
     margin-left: 1em;
+}
+
+li {
     margin-bottom: 1em;
 }
 
@@ -69,8 +73,8 @@
     height: 40%;
     width: 40%;
     margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     display: block;
     border-radius: 1em;
 }
@@ -83,10 +87,12 @@
 
 .objects p{
     text-align: center;
+    margin-bottom: 1em;
 }
 
 #type{
     font-weight: bold;
+
 }
 
 #evolucion {
