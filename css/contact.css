@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;700&display=swap");
 
 #contact-container {
-  background-image: url(../imgs/contact-wallpaper.png);
+  background-image: url(../imgs/contact.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
-  height: auto;
   padding: 2em 0;
 }
 #contact * {
@@ -14,10 +13,11 @@
 }
 #contact {
   margin: 0 auto;
+  margin-top: 8em;
   padding: 1em;
-  max-width: 80vh;
+  max-width: 150vh;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #D2DAFF;
 }
 #contact h2 {
   text-align: center;
