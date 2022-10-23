@@ -95,6 +95,20 @@ nav {
   .ham-btn {
     display: inline;
   }
+  
+  footer {
+    gap: 0;
+    justify-content: space-around;
+  }
+  .footer-element {
+    font-size: 1rem;
+  }
+  .footer-brands {
+    width: auto;
+  }
+  .fa-brands {
+    margin-left: 1em;
+  }
 }
 
 

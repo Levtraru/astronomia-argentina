@@ -96,3 +96,20 @@
     font-size: 0.8rem;
   }
 }
+
+@media screen and (max-width: 750px) {
+  
+  footer {
+    gap: 0;
+    justify-content: space-around;
+  }
+  .footer-element {
+    font-size: 1rem;
+  }
+  .footer-brands {
+    width: auto;
+  }
+  .fa-brands {
+    margin-left: 1em;
+  }
+}
