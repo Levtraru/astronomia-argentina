@@ -1,5 +1,5 @@
 :root {
-  --main-blue: #03045E;
+  --main-blue: #03045e;
 }
 
 * {
@@ -11,30 +11,30 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Quicksand', sans-serif;
-  background-color: #CAF0F8;
+  font-family: "Quicksand", sans-serif;
+  background-color: #caf0f8;
 }
 
 /* Estilos globales */
-a{
+a {
   text-decoration: none;
   color: white;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 a:hover:not(#logo) {
   background-color: white;
-  color: #00B4D8;
+  color: #00b4d8;
 }
 img {
   width: 100%;
 }
-li { 
+li {
   list-style: none;
 }
-h1{
+h1 {
   margin-left: 1em;
   user-select: none;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 
 /* Navbar */
@@ -59,26 +59,31 @@ nav {
   align-items: center;
   justify-content: space-around;
   padding: 0 5em;
-  font-size: .9rem;
+  font-size: 0.9rem;
   height: 0;
   overflow: hidden;
   transition: all 1s ease-in-out;
 }
-.nav-item a{
+.nav-item a {
   display: inline-block;
   padding: 10px 15px;
 }
 
-.times-btn, .ham-btn{
+.times-btn,
+.ham-btn {
   display: none;
 }
 
-.show-nav{
+.show-nav {
   height: auto;
 }
 
-.form{
+.form {
   font-weight: bold;
+}
+
+footer {
+  position: relative;
 }
 
 /* Responsive */
@@ -86,7 +91,7 @@ nav {
   nav {
     justify-content: space-around;
   }
-  .nav-links{
+  .nav-links {
     display: none;
   }
   .nav-links-750px {
@@ -95,56 +100,4 @@ nav {
   .ham-btn {
     display: inline;
   }
-  
-  footer {
-    gap: 0;
-    justify-content: space-around;
-  }
-  .footer-element {
-    font-size: 1rem;
-  }
-  .footer-brands {
-    width: auto;
-  }
-  .fa-brands {
-    margin-left: 1em;
-  }
 }
-
-
-
-/* Footer */
-footer {
-  width: 100%;
-  position: relative;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  gap: 5em;
-  align-items: center;
-  background-color: var(--main-blue);
-  color: white;
-}
-div.footer-element {
-  font-size: 1.5rem;
-  user-select: none;
-}
-.footer-element {
-  padding: .7em 0;
-  font-weight: bold;
-}
-.footer-brands {
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 25%;
-}
-.footer-brands i {
-  cursor: pointer;
-  transition: all .3s ease;
-}
-.footer-brands i:hover {
-  transform: scale(1.5);
-}
-

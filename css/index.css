@@ -84,39 +84,6 @@ body {
   background-color: white;
   box-shadow: 0 0 .5em .2em #fff;
 }
-
-/* Footer */
-footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5em;
-  background-color: var(--main-blue);
-  color: white;
-}
-.footer-element {
-  font-size: 1.5rem;
-  user-select: none;
-  padding: .7em 0;
-  font-weight: bold;
-}
-.footer-brands {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 25%;
-}
-.footer-brands i {
-  cursor: pointer;
-  transition: all .3s ease;
-}
-.footer-brands i:hover {
-  transform: scale(1.5);
-}
-
 /* Responsive */
 @media screen and (max-width: 750px) {
   #bienvenida-texto p {
@@ -136,19 +103,5 @@ footer {
     font-size: 1.2rem;
     width: 150px;
     padding: .5em 0;
-  }
-  
-  footer {
-    gap: 0;
-    justify-content: space-around;
-  }
-  .footer-element {
-    font-size: 1rem;
-  }
-  .footer-brands {
-    width: auto;
-  }
-  .fa-brands {
-    margin-left: 1em;
   }
 }

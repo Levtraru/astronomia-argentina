@@ -12,8 +12,7 @@
   font-family: "Quicksand", sans-serif;
 }
 #contact {
-  margin: 0 auto;
-  margin-top: 8em;
+  margin: 20px auto 0 auto;
   padding: 1em;
   max-width: 150vh;
   border-radius: 5px;
