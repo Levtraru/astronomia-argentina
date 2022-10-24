@@ -1,0 +1,48 @@
+[
+  {
+    "newsTitle": "La Crew-5 de la NASA en viaje a la Estación Espacial Internacional",
+    "newsDesc": "Los miembros de la misión se encuentran en órbita seguido al lanzamiento exitoso a la Estación Espacial Internacional dado en la tarde del 5 de Octubre en el complejo de lanzamientos 39A del Centro Espacial Kennedy en Florida. Esta es la quinta misión de SpaceX que participa del laboratorio en órbita.<br />El cohete Falcon 9 de SpaceX fue el encargado de propulsar al Dragon Endurance a órbita con los astronautas Nicole Mann , Josh Cassada, Kopichi Wakata y Anna Kikina.<br />Esta misión es el sexto viaje de SpaceX,incluyendo las dos misiones de prueba en 2020 hacia la Estación Espacial Internacional, siendo parte del programa comercial de la agencia espacial estadounidense.<br />Esta misión pasará varios meses abordo conduciendo nuevas investigaciones científicas como salud cardiovascular y comportamiento de fluídos en microgravedad para preparar la exploración humana más allá de la órbita baja de nuestro planeta y para benefinicio de nuestra vida en la Tierra.",
+    "newsImg": "../imgs/spacex.jpg",
+    "altImg": "SpaceX"
+  },
+  {
+    "newsTitle": "La misión Juno logra obtener una mirada en alta resolución de la luna Europa nunca antes lograda",
+    "newsImg": "../imgs/europa.jpg",
+    "altImg": "Mision Juno a Europa"
+  },
+  {
+    "newsTitle": "El equipo de Artemis confirma que no hubo daños, siguen enfocados en el despegue para Noviembre",
+    "newsImg": "../imgs/artemis.jpg",
+    "altImg": "Mision ARtemis"
+  },
+  {
+    "newsTitle": "La misión marciana InSight debe esperar a que pase una gran tormenta de polvo para seguir operaciones",
+    "newsImg": "../imgs/insight.jpg",
+    "altImg": "Mision InSight"
+  },
+  {
+    "newsTitle": "El Observatorio de Dinámica Solar de la NASA captura imagen de fuerte llamarada solar el 2 de Octubre de 2022",
+    "newsImg": "../imgs/sun.jpg",
+    "altImg": "Observatorio de Dinamica Solar"
+  },
+  {
+    "newsTitle": "Jupiter en oposición: el acercamiento más próximo a la Tierra en 59 años puede verse a simple vista",
+    "newsImg": "../imgs/jupiter.jpeg",
+    "altImg": "Acercamiento de Jupiter"
+  },
+  {
+    "newsTitle": "El telescopio espacial Hubble encuentra un escudo protector que defiende a un par de galaxias enanas",
+    "newsImg": "../imgs/hubble.png",
+    "altImg": "Telescopio Hubble"
+  },
+  {
+    "newsTitle": "Efemérides Astronómicas de Octubre 2022",
+    "newsImg": "../imgs/constelaciones.jpeg",
+    "altImg": "Efemerides Oct 2022"
+  },
+  {
+    "newsTitle": "Calendario de despegues 2022",
+    "newsImg": "../imgs/despegue.jpg",
+    "altImg": "Calendario despegues 2022"
+  }
+]
