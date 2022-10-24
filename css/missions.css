@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+    display:flex;
+}
+
+.FlexContainer div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #90E0EF;
+    display:inline-block;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    height: fit-content;
+    width:47vw;
+    height: fit-content;
+}
+
+.FlexContainer div p{
+    margin-bottom: 1rem;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+}
