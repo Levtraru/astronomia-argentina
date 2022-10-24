@@ -7,6 +7,7 @@
 
 .column {
     display:flex;
+    align-items:flex-start;
 }
 
 .FlexContainer div {
@@ -18,12 +19,11 @@
     text-align: center;
     font-size: x-large;
     padding: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
     border-radius: 1em;
+    width:92%;
     height: fit-content;
-    width:47vw;
-    height: fit-content;
+    margin-left: 2rem;
+
 }
 
 .FlexContainer div p{
