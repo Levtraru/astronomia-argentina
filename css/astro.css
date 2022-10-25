@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;700&display=swap");
 :root {
-    --second-blue: #102c88;
+  --second-blue: #102c88;
 }
 
 * {
@@ -10,92 +10,95 @@
 }
 
 .FlexContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    background-color: #CAF0F8;
-    height:auto;
-    overflow: auto;
-    flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  background-color: #caf0f8;
+  height: auto;
+  overflow: auto;
+  flex-direction: column;
 }
 
 .FlexContainer div {
-    margin-top: 20px;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 20px;
-    background-color: #90E0EF;
-    display:inline-block;
-    align-content: center;
-    text-align: justify;
-    font-size: x-large;
-    padding: 1em;
-    border-radius: 1em;
+  margin: 20px 2em;
+  background-color: #90e0ef;
+  display: inline-block;
+  align-content: center;
+  text-align: justify;
+  font-size: large;
+  padding: 1em;
+  border-radius: 1em;
 }
 
 #main {
-    background-color: #CAF0F8;
+  background-color: #caf0f8;
 }
 
-.astrotitle{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    margin-bottom: 1em;
-    background-color: var(--second-blue);
-    border-radius: .5em;
-    user-select: none;
-    margin-left: 0rem;
+.astrotitle {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 1em;
+  background-color: var(--second-blue);
+  border-radius: 0.5em;
+  user-select: none;
+  margin-left: 0rem;
 }
 
-#astrosubtitle{
-    text-align: center;
-    font-weight: bold;
-    font-size:larger;
-    margin-bottom: 1em;
+#astrosubtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 1em;
 }
 
 #list li {
-    list-style:disc;
-    margin-left: 1em;
+  list-style: disc;
+  margin-left: 1em;
 }
 
 li {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
-.solarsystem-img{
-    height: 40%;
-    width: 40%;
-    margin: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: block;
-    border-radius: 1em;
+.solarsystem-img {
+  height: 40%;
+  width: 40%;
+  margin: 1em auto;
+  display: block;
+  border-radius: 1em;
 }
 
-#system{
-    height: auto;
-    width: auto;
+#system {
+  height: auto;
+  width: auto;
 }
 
-
-.objects p{
-    text-align: center;
-    margin-bottom: 1em;
+.objects p {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
-#type{
-    font-weight: bold;
-
+#type {
+  font-weight: bold;
 }
 
 #evolucion {
-    height: 90%;
-    width: 90%;
+  height: 90%;
+  width: 90%;
+}
+
+@media screen and (max-width: 420px) {
+  .FlexContainer div {
+    margin: 20px 1em;
+    font-size: medium;
+  }
+  .solarsystem-img {
+    width: 100%;
+  }
 }

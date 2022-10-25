@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;700&display=swap");
 
+:root {
+  --border: #6466e0;
+  --h2-blue: #1f3ab3;
+  --h3-blue: #a7dbe4;
+}
+
 #news {
   padding: 0 1em;
   max-width: 1500px;
@@ -12,7 +18,7 @@
   grid-template-columns: 2fr 1fr;
   font-size: 1.2rem;
   margin-bottom: 1em;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid var(--border);
 }
 .latest-news,
 .more-news {
@@ -28,8 +34,25 @@
   align-items: center;
 }
 .latest-news h2 {
+  box-sizing: border-box;
+  padding: .5em;
   margin-bottom: 0.5em;
   text-align: center;
+  color: white;
+  background-color: var(--h2-blue);
+  border-radius: 10px;
+  transition: color 400ms ease;
+}
+.latest-news h2:hover {
+  color: rgb(89, 218, 218);
+}
+aside .more-news {
+  width: 340px;
+  margin-top: 3em;
+  background-color: #caf0f8;
+}
+aside .more-news .news-img {
+  border-radius: 0;
 }
 .latest-news .news-img {
   width: 100%;
@@ -40,6 +63,7 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .bottom-chunk {
@@ -48,21 +72,27 @@
   justify-content: center;
   align-items: center;
   gap: 1em;
-  /* margin-bottom: 2em; */
   margin: 0 1em 2em 1em;
 }
 .bottom-chunk .more-news {
   min-height: 320px;
 }
-.more-news:not(.side-news) {
+.more-news {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #222;
+  padding: 1em .5em;
+  background-color: var(--h3-blue);
+  border-radius: 10px;
+  font-size: .9rem;
 }
 .more-news h3 {
   text-align: center;
+}
+.more-news h3:hover {
+  text-decoration: underline;
+  color: var(--h2-blue);
 }
 
 /* Animación scroll */
@@ -105,10 +135,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .bottom-chunk .news-img {
-    height: 200px;
+    height: 150px;
   }
   .bottom-chunk .more-news {
     min-height: 220px;
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
 }

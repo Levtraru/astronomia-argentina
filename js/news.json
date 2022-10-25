@@ -6,14 +6,14 @@
     "altImg": "SpaceX"
   },
   {
-    "newsTitle": "La misión Juno logra obtener una mirada en alta resolución de la luna Europa nunca antes lograda",
-    "newsImg": "../imgs/europa.jpg",
-    "altImg": "Mision Juno a Europa"
+    "newsTitle": "El último del año. Cuándo es el próximo eclipse solar y desde dónde podrá verse mejor",
+    "newsImg": "../imgs/eclipse.jpg",
+    "altImg": "Ultimo eclipse 2022"
   },
   {
     "newsTitle": "El equipo de Artemis confirma que no hubo daños, siguen enfocados en el despegue para Noviembre",
     "newsImg": "../imgs/artemis.jpg",
-    "altImg": "Mision ARtemis"
+    "altImg": "Mision Artemis"
   },
   {
     "newsTitle": "La misión marciana InSight debe esperar a que pase una gran tormenta de polvo para seguir operaciones",
@@ -31,7 +31,7 @@
     "altImg": "Acercamiento de Jupiter"
   },
   {
-    "newsTitle": "El telescopio espacial Hubble encuentra un escudo protector que defiende a un par de galaxias enanas",
+    "newsTitle": "El telescopio espacial Hubble encuentra un escudo que defiende a un par de galaxias enanas",
     "newsImg": "../imgs/hubble.png",
     "altImg": "Telescopio Hubble"
   },
@@ -44,5 +44,10 @@
     "newsTitle": "Calendario de despegues 2022",
     "newsImg": "../imgs/despegue.jpg",
     "altImg": "Calendario despegues 2022"
+  },
+  {
+    "newsTitle": "La misión Juno logra obtener una mirada en alta resolución de la luna Europa nunca antes lograda",
+    "newsImg": "../imgs/europa.jpg",
+    "altImg": "Mision Juno a Europa"
   }
 ]
